@@ -1,9 +1,9 @@
-const Button = ({ text, iconUrl, color }) => {
+const Button = ({ text, iconUrl, color, textColor }) => {
   return (
     <div>
       <button
-        className={`bg-${color} text-white font-montserrat text-md leading-7 px-7 py-3 rounded-full flex items-center
-        bg-coral-red gap-x-2 cursor-pointer `}
+        className={`${textColor ? `${textColor} border` : "text-white"} font-montserrat text-md leading-7 px-7 py-3 rounded-full flex items-center
+       ${color} gap-x-2 cursor-pointer `}
       >
         {text}
         {iconUrl && (
