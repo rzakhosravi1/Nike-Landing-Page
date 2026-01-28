@@ -3,7 +3,7 @@ import ReviewsDetail from "../Component/ReviewsDetail";
 const CostumerReviews = () => {
   return (
     <section className="flex justify-center flex-col items-center w-full">
-      <h2 className="justify-center items-center font-bold text-[40px] font-palanquin font-montserrat">
+      <h2 className="font-bold text-[40px] font-palanquin font-montserrat max-sm:leading-13">
         What Our <span className="text-coral-red">Customers</span> Say?
       </h2>
       <p className="max-w-lg mt-3 text-slate-gray font-montserrat text-center ">
