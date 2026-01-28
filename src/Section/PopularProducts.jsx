@@ -1,7 +1,7 @@
 import { products } from "../Constant";
 import PopularCard from "../Component/PopularCard";
 const PopularProducts = () => (
-  <section className="max-container">
+  <section id="products" className="max-container">
     <div className="justify-items-start">
       <h2 className="text-4xl font-bold mb-4 font-montserrat font-palanquin">
         Our <span className="text-coral-red">Popular</span> Products
