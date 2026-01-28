@@ -1,8 +1,8 @@
 import { products } from "../Constant";
 import PopularCard from "../Component/PopularCard";
 const PopularProducts = () => (
-  <section className="">
-    <div>
+  <section className="max-container">
+    <div className="justify-items-start">
       <h2 className="text-4xl font-bold mb-4 font-montserrat font-palanquin">
         Our <span className="text-coral-red">Popular</span> Products
       </h2>
@@ -11,7 +11,7 @@ const PopularProducts = () => (
         Discover a world of comfort, design, and value
       </p>
     </div>
-    <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-8 mt-8 max-container justify-items-center ">
+    <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-8 mt-11 max-container  ">
       {products.map((product) => (
         <PopularCard key={product.name} {...product} />
       ))}
