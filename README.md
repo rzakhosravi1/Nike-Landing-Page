@@ -1,6 +1,6 @@
 # 👟 Nike Landing Page Clone
 
-### 🌐 [View Live Demo](#)
+### 🌐 [View Live Demo](https://mellifluous-faun-cc7a05.netlify.app/)
 
 A stunning, fully responsive landing page for a shoe brand (Nike concept), built with **React** and **Tailwind CSS**. This project demonstrates modern UI/UX principles, component-based architecture, and responsive design.
 
